@@ -1,0 +1,22 @@
+{
+  "9d4de07d-015a-4193-90fa-3e757f389221": {
+    "id": "9d4de07d-015a-4193-90fa-3e757f389221",
+    "name": "Stanford Research Tool.pdf",
+    "file_type": "pdf",
+    "file_path": "/Users/will/Able_2/able2/sources/cdd9d749-2c9b-4218-abb4-6f8bc1429d63.pdf",
+    "summary": "Assisting in Writing Wikipedia-like Articles From Scratch with Large Language Models Yijia Shao Yucheng Jiang Theodore A. Kanell Peter Xu Omar Khattab Monica S. Lam Stanford University {shaoyj, yuchengj, tkanell, peterxu, okhattab}@stanford.edu lam@cs.stanford.edu Abstract We study how to apply l...",
+    "created_at": "2025-07-20T12:40:17.894358",
+    "file_size": 1320410,
+    "chunk_count": 29
+  },
+  "4531283e-68b9-47b8-9440-38e61c42ba40": {
+    "id": "4531283e-68b9-47b8-9440-38e61c42ba40",
+    "name": "Theory of Mind Prediction.pdf",
+    "file_type": "pdf",
+    "file_path": "/Users/will/Able_2/able2/sources/d2d4f08a-f6b4-4b45-91ba-6f4e1f8bfc67.pdf",
+    "summary": "Boosting Theory-of-Mind Performance in Large Language Models via Prompting Shima Rahimi Moghaddam*, Christopher J. Honey Johns Hopkins University, Baltimore, MD, USA. * Correspondence to: sh.rahimi.m@gmail.com Abstract Large language models (LLMs) excel in many tasks in 2023, but they still face ...",
+    "created_at": "2025-07-20T12:40:18.203153",
+    "file_size": 1090078,
+    "chunk_count": 22
+  }
+}

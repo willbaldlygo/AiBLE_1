@@ -1,0 +1,25 @@
+#!/bin/bash
+
+# Able2 Desktop App Launcher
+# This script launches Able2 from the desktop app
+
+# Get the path to the Able2 directory
+ABLE2_BASE_PATH="/Users/will/Able_2"
+LAUNCHER_PATH="$ABLE2_BASE_PATH/launch_able2.sh"
+
+# Check if the launcher exists
+if [ ! -f "$LAUNCHER_PATH" ]; then
+    osascript << 'OSASCRIPT'
+display dialog "Able2 launcher not found at expected location. Please make sure Able2 is installed in /Users/will/Able_2/" with title "Able2 Error" buttons {"OK"} default button "OK"
+OSASCRIPT
+    exit 1
+fi
+
+# Open Terminal and run the launcher
+osascript << OSASCRIPT
+tell application "Terminal"
+    activate
+    do script "cd '$ABLE2_BASE_PATH' && ./launch_able2.sh"
+end tell
+OSASCRIPT
+

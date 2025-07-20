@@ -1,0 +1,57 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: -apple-system, BlinkMacSystemFont, 'Inter', system-ui, sans-serif;
+  }
+  
+  body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Inter', system-ui, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    background-color: #2D5448;
+    color: #000000;
+  }
+
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+}
+
+@layer components {
+  .btn-primary {
+    @apply bg-able-primary text-white px-6 py-3 rounded-card hover:bg-able-primary transition-colors duration-200 font-semibold shadow-card;
+  }
+  
+  .btn-secondary {
+    @apply bg-able-cardBg text-able-textPrimary px-6 py-3 rounded-card hover:bg-gray-100 transition-colors duration-200 font-semibold border-2 border-able-cardBorder;
+  }
+  
+  .card {
+    @apply bg-able-cardBg rounded-card shadow-card border-2 border-able-cardBorder p-6 m-4;
+  }
+  
+  .input-field {
+    @apply w-full px-4 py-3 border-2 border-able-cardBorder rounded-card focus:ring-2 focus:ring-able-primary focus:border-able-primary outline-none transition-all duration-200 bg-able-cardBg text-able-textPrimary;
+  }
+
+  .heading-primary {
+    @apply text-able-textPrimary font-bold text-2xl mb-4;
+  }
+
+  .heading-secondary {
+    @apply text-able-textPrimary font-semibold text-xl mb-3;
+  }
+
+  .text-body {
+    @apply text-able-textSecondary font-normal text-base leading-relaxed;
+  }
+
+  .text-small {
+    @apply text-able-textSecondary font-normal text-sm;
+  }
+}

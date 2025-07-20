@@ -1,0 +1,9 @@
+fastapi>=0.104.1
+uvicorn>=0.24.0
+python-multipart>=0.0.6
+chromadb>=0.4.15
+sentence-transformers>=2.2.2
+pymupdf==1.23.8
+anthropic>=0.7.7
+python-dotenv>=1.0.0
+pydantic>=2.5.0
